@@ -20,8 +20,8 @@ object LinearAlgebra extends App {
         v.map(_*s)
     }
     def dot(v: Seq[Double], w: Seq[Double]) = {
-        val prod = for (i <- v.indices) yield v(i) * w(i)
-        prod.sum
+        assert(v.length == w.length)
+        v.indices.map(i => v(i) * w(i)).sum
     }
     def sum_of_squares(v: Seq[Double]) = {
         v.map(n => n*n).sum
