@@ -1,6 +1,6 @@
-package scalads
+package scala-ds
 
-object MachineLearning extends App {
+object MachineLearning {
 
     def accuracy(tp: Int, fp: int, fn: Int, tn: Int) = {
         val correct = tp + tn

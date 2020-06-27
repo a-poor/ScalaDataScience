@@ -2,7 +2,7 @@
 import org.scalatest._
 import flatspec._
 
-import scalads._
+package scala-ds._
 
 class LinearAlgebraTest extends FunSuite {
 

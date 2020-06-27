@@ -1,8 +1,8 @@
-package scalads
+package scala-ds
 
 import LinearAlgebra
 
-object GradientDescent extends App {
+object GradientDescent {
 
     def difference_quotient(
         f: Double => Double, 

@@ -1,6 +1,6 @@
-package scalads
+package scala-ds
 
-object LinearAlgebra extends App {
+object LinearAlgebra {
     def add(v: Seq[Double], w: Seq[Double]): Seq[Double] = {
         assert(v.length == w.length)
         v.indices.map(i => v(i) + w(i))

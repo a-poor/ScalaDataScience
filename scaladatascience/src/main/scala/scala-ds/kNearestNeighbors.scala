@@ -1,6 +1,6 @@
-package scalads
+package scala-ds
 
-object kNearestNeighbors extends App {
+object kNearestNeighbors {
     def raw_majority_vote(labels: Seq[Int]) = {
         labels.groupby(n => n)
     }
